@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- titulo -->
+    <title>Harry Potter</title>
+    <!--Se agrego TIPOGRAFIA de googlefonts con links href...-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Varela+Round&display=swap" rel="stylesheet">
+    <!--falta agregar un LOGO, HACER CON LA PAGINA FAVICON.ICO-->
+    <link rel="shortcut icon" href="./imagenes/favicon-16x16.png" type="image/x-icon">
+    <!--estilo css-->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <!--falta img src logo-->
+        <img src="./imagenes/favicon-16x16.png" alta="logo">
+        <h1>
+            Bienvenido al Mundo Mágico de Harry Potter
+        </h1>
+        <!--barra de navegacion, para entrar y hacer click-->
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="./pages/personajes.html">Personajes</a>
+                </li>
+                <li>
+                    <a href="./pages/Episodios.html">Episodios</a>
+                </li>
+                <li>
+                    <a href="./pages/hogwarts.html">Hogwarts</a>
+                </li>
+                <li>
+                    <a href="./pages/Contacto.html">Contactos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <img src="./imagenes/harryPotter.jpeg" alt="visita mi web" width="1500px">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolore expedita enim hic praesentium labore consequuntur rem, dolor autem eos eius distinctio atque impedit libero neque pariatur! Excepturi iste sit nobis rerum, ipsa neque libero, repellat aperiam cum sed temporibus perspiciatis veritatis mollitia. Dolor nesciunt accusantium omnis quibusdam est ut, recusandae, placeat sapiente magni incidunt corporis asperiores accusamus nam voluptatum? Nesciunt, inventore velit odit, aut eaque impedit qui consequatur neque reiciendis odio pariatur, at sint ipsum omnis ab amet non.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mundo Mágico de Harry Potter</p> 
+        <p>Todos los derechos reservados</p> 
+<!--falta agregar ICONOS DE INSTAGRAM, FACE, ETC-->
+    </footer>
+<!--DEPENDENCIA DE BOOTSTRAP-->
+</body>
+</html>

@@ -1,0 +1,123 @@
+/*significa que el logo va a ocupar un espacio chiquito*/
+* {
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+/*estilo global*/
+body {
+    font-family: "Varela Round", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+/*le cambie tipo de letra y sin negrita*/
+h1 {
+    font-family: "Holtwood One SC", serif;
+    font-weight: normal;
+}
+.logoSize {
+    width: 60px;
+}
+/*Encabezado*/
+header {
+    background-color: rgb(52, 87, 161);
+    color:rgb(194, 193, 192);
+    padding: 20px;
+    text-align: center;
+}
+header nav ul {
+    list-style: none;
+    padding: 0%
+    margin:0%;
+}
+header nav ul li{
+    margin: 20px;
+    display: inline-block;
+}
+header nav ul li a {
+    background-color: rgb(44, 44, 44);
+    color: rgb(173, 170, 170);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border:5px groove #968f8f;
+    padding:10px ;
+    margin: 10px;
+}
+/* hover para que se ponga de otro color con el mouse*/
+header nav ul li a:hover {
+    font-weight: bold;
+    color:rgb(44, 44, 44);
+    background-color: rgb(173, 170, 170);
+}
+/*para que ponga otro color cuando haces click con el mouse*/
+header nav ul li a:active {
+    background-color: blue;
+}
+/*para que quede de otro colo cuando ya visitaste a esa pagina*/
+header nav ul li a:visited {
+    color: rgb(169, 169, 243);
+}
+/*seccion principal*/
+main {
+    padding: 20px; 
+}
+.personajes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1rf 1fr;
+    gap:10px;
+}
+.personajes div {
+    border: gray 2px solid;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.personajes div img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+h3 {
+    text-align: center;
+    padding: 20px;
+}
+.tamano_formulario {
+    width: 500px;
+    margin: 20px;
+    border: #968f8f 3px solid;
+    padding: 20px;
+}
+/*seccion de inicio*/
+section {
+    margin-bottom: 20px;
+    background-color: blue;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+section h2 {
+    color: white;
+    text-align: center;
+}
+/*imágenes*/
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+/*pie de página*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
