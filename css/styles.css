@@ -17,6 +17,8 @@ body {
 h1 {
     font-family: "Holtwood One SC", serif;
     font-weight: normal;
+    white-space: nowrap;
+    font-size: clamp(1.2rem, 3.5vw, 2.4rem);
 }
 .logoSize {
     width: 60px;
@@ -25,7 +27,7 @@ h1 {
     position: absolute;
     top: 10px;
     left: 10px;
-    width: 180px;
+    width: 144px;
 }
 /*Encabezado*/
 header {
@@ -34,6 +36,7 @@ header {
     padding: 20px;
     text-align: center;
     position: relative;
+    padding-left: 180px;
 }
 header nav ul {
     list-style: none;
@@ -128,3 +131,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Responsive: ajustar tamaño del título en pantallas pequeñas */
+/* Las media queries específicas ya no son necesarias por el uso de clamp() */
