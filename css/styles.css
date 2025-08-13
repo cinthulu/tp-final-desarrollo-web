@@ -77,15 +77,26 @@ main {
 }
 .personajes {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1rf 1fr;
-    gap:10px;
+    grid-template-columns: repeat(3, 1fr);
+    /* filas automáticas según contenido */
+    gap:6px;
 }
 .personajes div {
     border: gray 2px solid;
     padding: 10px;
     margin: 10px;
     text-align: center;
+}
+
+/* reducir espacio entre recuadros (tarjetas) sin afectar elementos internos */
+.personajes > .card {
+    margin: 6px;
+}
+
+/* que las tarjetas ocupen el ancho de su columna de la grilla */
+.personajes .tamano_formulario,
+.personajes .card {
+    width: 100%;
 }
 .personajes div img {
     max-width: 100%;
