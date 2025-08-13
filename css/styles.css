@@ -21,16 +21,23 @@ h1 {
 .logoSize {
     width: 60px;
 }
+.header-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 180px;
+}
 /*Encabezado*/
 header {
     background-color: rgb(52, 87, 161);
     color:rgb(194, 193, 192);
     padding: 20px;
     text-align: center;
+    position: relative;
 }
 header nav ul {
     list-style: none;
-    padding: 0%
+    padding: 0%;
     margin:0%;
 }
 header nav ul li{
