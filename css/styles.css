@@ -99,9 +99,13 @@ main {
     width: 100%;
 }
 .personajes div img {
-    max-width: 100%;
-    height: auto;
+    width: 220px;
+    height: 300px;
+    object-fit: cover;
     border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 h3 {
     text-align: center;
@@ -145,3 +149,31 @@ footer {
 
 /* Responsive: ajustar tamaño del título en pantallas pequeñas */
 /* Las media queries específicas ya no son necesarias por el uso de clamp() */
+.card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+@media (max-width: 900px) {
+  .personajes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .personajes div img {
+    width: 180px;
+    height: 240px;
+  }
+}
+@media (max-width: 600px) {
+  .personajes {
+    grid-template-columns: 1fr;
+  }
+  .personajes div img {
+    width: 100%;
+    height: 200px;
+  }
+}
