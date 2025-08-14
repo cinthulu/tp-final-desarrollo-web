@@ -45,16 +45,20 @@
 <!--BOOTSTRAP-->
     <main>
         <section class="tamano_formulario m-auto">
-        <form>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text"></div>
-            </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
+            <p class="mb-3">Responderemos su consulta a la brevedad.</p>
+            <form>
+                <div class="mb-3">
+                    <label for="inputNombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="inputNombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="inputEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" required>
+                </div>
+                <div class="mb-3">
+                    <label for="inputMensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="inputMensaje" rows="4" required></textarea>
+                </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
         </section>  
